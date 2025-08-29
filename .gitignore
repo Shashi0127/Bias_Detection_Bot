@@ -1,0 +1,36 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+.venv
+
+# Environment
+.env
+*.env
+
+# Data
+data/temp/*
+data/training_data/*.csv
+data/models/*.pkl
+data/reports/*
+!data/*/.gitkeep
+
+# Logs
+logs/*.log
+!logs/.gitkeep
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Keep structure
+!.gitkeep
